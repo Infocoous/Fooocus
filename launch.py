@@ -143,8 +143,8 @@ def download_models(default_model, previous_default_models, checkpoint_downloads
 
 # Add the new SafeTensor model
 config.checkpoint_downloads["new_model.safetensors"] = "https://civitai.com/api/download/models/293240?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-#config.checkpoint_downloads["new_model.safetensors1"] = "https://civitai.com/api/download/models/98960?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-config.checkpoint_downloads["new_model.safetensors2"] = "https://civitai.com/api/download/models/1422871?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+config.checkpoint_downloads["new_model.safetensors1"] = "https://civitai.com/api/download/models/98960?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+#config.checkpoint_downloads["new_model.safetensors2"] = "https://civitai.com/api/download/models/1422871?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 config.checkpoint_downloads["new_model.safetensors3"] = "https://civitai.com/api/download/models/1463630?type=Model&format=SafeTensor&size=pruned&fp=fp8"
 config.checkpoint_downloads["new_model.safetensors4"] = "https://civitai.com/api/download/models/1540184?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 config.lora_downloads["new_lora.safetensors1"] = "https://civitai.com/api/download/models/1537915?type=Model&format=SafeTensor"
