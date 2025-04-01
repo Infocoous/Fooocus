@@ -148,7 +148,7 @@ config.checkpoint_downloads["new_model.safetensors1"] = "https://civitai.com/api
 config.checkpoint_downloads["new_model.safetensors3"] = "https://civitai.com/api/download/models/1463630?type=Model&format=SafeTensor&size=pruned&fp=fp8"
 #config.checkpoint_downloads["new_model.safetensors4"] = "https://civitai.com/api/download/models/1540184?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 #config.lora_downloads["new_lora.safetensors1"] = "https://civitai.com/api/download/models/1537915?type=Model&format=SafeTensor"
-config.lora_downloads["new_lora.safetensors2"] = "https://civitai.com/api/download/models/1500974?type=Model&format=SafeTensor"
+#config.lora_downloads["new_lora.safetensors2"] = "https://civitai.com/api/download/models/1500974?type=Model&format=SafeTensor"
 
 config.default_base_model_name, config.checkpoint_downloads = download_models(
     config.default_base_model_name, config.previous_default_models, config.checkpoint_downloads,
